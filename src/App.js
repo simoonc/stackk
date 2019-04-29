@@ -76,7 +76,7 @@ class App extends Component {
             comment: comment,
             id: id
         };
-        fetch(`${this.API_URL}/api/question/comment/${id}`, {
+        fetch(`${this.API_URL}/question/comment/${id}`, {
             method: 'POST',
             body: JSON.stringify(newComment),
             headers: {
