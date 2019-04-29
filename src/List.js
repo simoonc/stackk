@@ -17,7 +17,7 @@ class List extends Component {
                 <h3>{this.props.header}</h3>
                 <div className="card">
                     <div className="card-header">
-                        The questions
+                        
                     </div>
                     <div className="card-body">
                         <ol className="list-group" id="itemList">
